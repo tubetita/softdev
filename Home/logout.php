@@ -2,10 +2,8 @@
 
 session_start();
 
-if (isset($_SESSION['student_username'])){
-	
-	session_destroy();
-	
-}
+session_destroy();
+
+header('Location:/softdev/index.html');
 
 ?>

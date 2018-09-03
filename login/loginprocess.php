@@ -3,7 +3,7 @@ session_start();
 
 $host='localhost';
 $user='root';
-$pass='';
+$pass='Tyronne1!';
 $db='tutorfinder';
 
 $connect = mysqli_connect($host,$user,$pass,$db);
