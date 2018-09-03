@@ -1,0 +1,38 @@
+<?php
+session_start;
+?>
+
+<html>
+	<head>
+	<meta charset = "utf-8">
+	<title>Tutor Finder</title>
+	<link rel = "stylesheet" href="login/style.css">
+	<body>
+	
+	<img src = "login/tutorlogo.jpg" alt = "">
+	<div class = "login-box">
+	<form action="login/loginprocess.php" method="POST">
+	
+		<h3>Username or Email Address</h3>	
+	<div class = "textbox">
+	<input type = "text" placeholder = "" name = "user_name" value = "">
+	</div>
+		<h3>Password</h3>
+	<div class = "textbox">
+	<input type = "password" placeholder = "" name = "password" value = "">
+	</div>
+	<input class = "btn" type = "submit" name = "" value = "Sign in">	
+	
+	<a href="register.html">Register here to get an account</a>
+	</div>
+	</form>
+	
+	<?php
+	
+	if (isset(($_SESSION['id'])){
+	echo $_SESSION['id'];
+	
+	?>
+	
+	</body>
+</html>

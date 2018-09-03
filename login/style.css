@@ -1,0 +1,97 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+
+@font-face {
+  font-family: Raleway-Regular;
+  src: url('fonts/raleway/Raleway-Regular.ttf'); 
+}
+
+@font-face {
+  font-family: Raleway-Thin;
+  src: url('fonts/raleway/Raleway-Thin.ttf'); 
+}
+
+@font-face {
+  font-family: Raleway-SemiBold;
+  src: url('fonts/raleway/Raleway-SemiBold.ttf'); 
+}
+
+@font-face {
+  font-family: Raleway-Bold;
+  src: url('fonts/raleway/Raleway-Bold.ttf'); 
+}
+
+
+body{
+	margin:0;
+	padding:0;
+	background:url(code.jpg) no-repeat;
+	font-family:sans-serif;
+	background-size:50% 100%;
+	background-color:#E8E2D2;
+}
+
+
+
+.login-box{
+	background:#f7f7f7;
+	width:280px;
+	position:absolute;
+	top:50%;
+	left:75%;
+	transform: translate(-50%, -50%);
+	color:black;
+}
+.login-box h3 {
+	float:left;
+	font-size:13px;
+	font-family:Raleway-Thin;
+	margin-bottom:5px;
+	margin-left:20px;
+	padding:10px 0
+	
+	}
+.textbox{
+	width:80%;
+	height:30px;
+	overflow:hidden;
+	margin:10px 20px;
+	border:1px solid #dcdcdc;
+	
+}
+.textbox input{
+	border: none;
+	outline:none;
+	background:none;
+	color:black;
+	font-size:18px;
+	width:80%;
+	float:left;
+	margin:5px;
+	
+}
+.btn{
+	width:30%;
+	background:#ff736c;
+	border:2px solid #ff736c;
+	color: black;
+	font-family:Raleway-Regular;
+	padding: 3px;
+	font-size:14px;
+	cursor:pointer;
+	margin:12px 160px;
+	
+}
+.checkbox{
+	width:50px;
+}
+img{
+	height:13%;
+	margin-left:71%;
+	margin-top:8%;
+}
+a{
+	padding-left:8%;
+	
+	
+}
